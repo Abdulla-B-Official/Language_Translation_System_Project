@@ -109,7 +109,7 @@ Out of the box, the system supports 10 languages (easily expandable via `transla
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 The Flask backend exposes the following JSON endpoints:
 
