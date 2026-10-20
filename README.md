@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 **Multilingual Support Translator** is an intelligent, full-stack language translation system designed to bridge communication gaps with high contextual accuracy. Built around Meta's pretrained **`facebook/nllb-200-distilled-600M`** model, it handles automatic source language detection and seamlessly translates text across multiple global and regional languages.
 
@@ -12,7 +12,7 @@ The backend is served via a **Flask REST API**, driving a clean, responsive sing
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The primary objective is to build a robust, privacy-first translation application that can:
 
@@ -24,7 +24,7 @@ The primary objective is to build a robust, privacy-first translation applicatio
 
 ---
 
-## ⚠️ Problem Statement
+## Problem Statement
 
 Standard online translation tools often struggle with technical documents, logs, or customer support tickets because they blindly translate structured strings, breaking critical identifiers.
 
@@ -35,7 +35,7 @@ Traditional translation workflows often suffer from:
 * Clunky interfaces lacking quick language-swapping or shortcut features
 * Heavy latency or high deployment costs
 
-### 💡 Proposed Solution
+### Proposed Solution
 
 This project introduces an end-to-end local translation pipeline that automatically executes:
 
@@ -50,7 +50,7 @@ For every translation request, the system:
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 ```text
             USER INPUT
@@ -92,7 +92,7 @@ For every translation request, the system:
 
 ---
 
-## 🌍 Supported Languages
+## Supported Languages
 
 Out of the box, the system supports 10 languages (easily expandable via `translator.py`):
 
@@ -145,7 +145,7 @@ curl -X POST http://127.0.0.1:5000/api/translate \
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 translation_app/
@@ -162,7 +162,7 @@ translation_app/
 
 ---
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 Requires **Python 3.9+**. A GPU is optional; CPU inference is fully supported (though initial loading is slower).
 
@@ -205,14 +205,14 @@ Then open **[http://127.0.0.1:5000](http://127.0.0.1:5000)** in your browser.
 
 ---
 
-## 🛡️ Privacy & Production Notes
+## Privacy & Production Notes
 
 * **Local Execution:** The model runs entirely on your machine—no user data ever leaves your hardware.
 * **Production Deployment:** The built-in Flask development server is intended for local and demo use. For production environments, wrap the application behind a robust WSGI server (e.g., `gunicorn` or `waitress`) and implement rate-limiting.
 
 ---
 
-## 💻 Technology Stack
+## Technology Stack
 
 | Technology | Purpose |
 | --- | --- |
