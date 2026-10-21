@@ -1,4 +1,17 @@
-# 🌐 Multilingual Support Translator — AI-Powered Language Translation System
+# Multilingual Support Translator — AI-Powered Language Translation System
+
+---
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-Machine_Translation-orange?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-Seq2Seq_%7C_Transformer-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Web_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+<p align="center">
+  <b>An end-to-end Neural Machine Translation (NMT) system designed to preprocess, train, evaluate, and translate text across multiple languages using deep sequence models and a web backend interface.</b>
+</p>
 
 ---
 
